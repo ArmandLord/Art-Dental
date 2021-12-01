@@ -38,5 +38,8 @@ export const ContainerDetalText = styled.div`
         @media (max-width: 750px) {
             font-size: 6em;
         }
+        @media (max-width: 400px) {
+            font-size: 4em;
+        }
     }
 `;
