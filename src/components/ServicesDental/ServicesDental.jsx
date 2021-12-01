@@ -5,12 +5,21 @@ const ServicesDental = () => {
         <ServicesDentalWrapper>
             <MarginServicesDental>
                 <header>
-                    <h3>Conoce nuestros servicios</h3>
+                    <h2>Conoce nuestros servicios</h2>
                 </header>
                 <section>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <span>
+                        <h3>Resinas alta estética</h3>
+                    </span>
+                    <span>
+                        <h3>Amalgamas</h3>
+                    </span>
+                    <span>
+                        <h3>Limpieza con ultrasonido</h3>
+                    </span>
+                    <span>
+                        <h3>Blanqueamiento</h3>
+                    </span>
                 </section>
             </MarginServicesDental>
         </ServicesDentalWrapper>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const bgOne = 'https://res.cloudinary.com/dy9tey0yi/image/upload/v1638244155/Art-Dental/bgOne_nqyjge.jpg' 
+export const bgOne = 'https://res.cloudinary.com/dy9tey0yi/image/upload/v1638244155/Art-Dental/bgOne_nqyjge.jpg' 
 // const bgTwo = 'https://cdn.wallpapersafari.com/92/86/NoeJYT.jpg'
 
 export const ContainerDetalText = styled.div`
@@ -28,5 +28,15 @@ export const ContainerDetalText = styled.div`
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+
+        @media (max-width: 1600px) {
+            font-size: 15em;
+        }
+        @media (max-width: 1000px) {
+            font-size: 10em;
+        }
+        @media (max-width: 750px) {
+            font-size: 8em;
+        }
     }
 `;

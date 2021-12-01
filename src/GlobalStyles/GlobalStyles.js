@@ -7,10 +7,12 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         text-decoration: none;
         font-family: 'Fira Sans Condensed', sans-serif;
+        font-family: 'Gorditas', cursive;
         font-family: 'Montserrat Alternates', sans-serif;
         font-family: 'Playfair Display', serif;
         font-family: 'Poppins', sans-serif;
         font-family: 'Raleway', sans-serif;
+        font-family: 'Sarabun', sans-serif;
     }
 
 `

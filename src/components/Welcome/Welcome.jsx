@@ -1,39 +1,45 @@
 import {
   ContainerWelcome,
-  MarginWelcome,
-  ContainerWelcomeInfo,
+  MarginWelcome
 } from "./Welcome.styled";
 
 const Welcome = () => {
   return (
     <ContainerWelcome>
       <MarginWelcome>
-        <ContainerWelcomeInfo>
+        <h2>¿QUIÉNES SOMOS?</h2>
+        <p>
+          Art Dental es un consultorio de especialidades dentales creado por
+          cirujanos dentistas egresados de la Universidad Nacional Autónoma de
+          México; tenemos la misión de diagnosticar, prevenir y realizar
+          tratamientos bucales de manera integral. Contamos con especialistas
+          certificados en todas las áreas de la odontología con el objetivo de
+          brindarte el mejor servicio en un solo lugar. Efectuamos diagnósticos
+          y tratamientos interdisciplinarios.
+        </p>
+
+        <span>
           <img
-            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638244437/Art-Dental/FB_IMG_1638244051914_t1xili.jpg"
-            alt="Gerardo Fuentes Pérez Dentista"
+            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638388869/Art-Dental/LOGO-UNAM_vdf6a1.png"
+            alt="logo Art-Dental"
           />
-          <h4>Dr. Gerardo Fuentes Pérez</h4>
-        </ContainerWelcomeInfo>
-        <ContainerWelcomeInfo>
-          <h2>¿Qué es Art Dental?</h2>
-          <br />
-          <br />
-          <p>
-            Art Dental es un consultorio de especialidades dentales creado por
-            cirujanos dentistas egresados de la Universidad Nacional Autónoma de
-            México; tenemos la misión de diagnosticar, prevenir y realizar
-            tratamientos bucales de manera integral.
-          </p>
-          <br />
-          <p>
-            Abrimos nuestras puertas para brindarte la atención odontológica que
-            te mereces. Es tiempo de lucir la sonrisa que te mereces, por eso ofrecemos atención integral a niños, adultos y
-            adolescentes.
-          </p>
-          <br />
-          <h5>Conoce más de Art-Dental</h5>
-        </ContainerWelcomeInfo>
+          <img
+            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638388205/Art-Dental/logo_zzke70.png"
+            alt="logo Art-Dental"
+          />
+          <img
+            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638388874/Art-Dental/odonto-logo_q6x7fs.png"
+            alt="logo Art-Dental"
+          />
+          <img
+            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638389749/Art-Dental/Logo_Hidalgo_fabuj4.png"
+            alt="logo Art-Dental"
+          />
+          <img
+            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638390008/Art-Dental/Odontologia-Simbolo_igodjy.png"
+            alt="logo Art-Dental"
+          />
+        </span>
       </MarginWelcome>
     </ContainerWelcome>
   );
