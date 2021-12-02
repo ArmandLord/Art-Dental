@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Container } from "../../GlobalStyles/GlobalStyles";
 import { bgOne } from "../DentalText/DentalText.styled";
@@ -13,7 +14,6 @@ export const ServicesDentalWrapper = styled.div`
 `;
 
 export const MarginServicesDental = styled(Container)`
-  
   header {
     width: 100%;
     height: 200px;
@@ -24,7 +24,6 @@ export const MarginServicesDental = styled(Container)`
     margin-bottom: 50px;
     color: #ffffff;
     font-size: 1.5rem;
-
 
     h2 {
       font-size: 3rem;
@@ -61,13 +60,13 @@ export const MarginServicesDental = styled(Container)`
       width: 80%;
       height: 270px;
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-          0 10px 10px rgba(0, 0, 0, 0.22);
+        0 10px 10px rgba(0, 0, 0, 0.22);
 
       @media (max-width: 500px) {
         height: 400px;
         width: 90%;
       }
-      
+
       p {
         text-align: justify;
         width: 45%;
@@ -82,7 +81,7 @@ export const MarginServicesDental = styled(Container)`
         object-position: center;
         border-radius: 1.5rem;
         @media (max-width: 1100px) {
-          display: none;    
+          display: none;
         }
       }
     }
@@ -123,6 +122,32 @@ export const MarginServicesDental = styled(Container)`
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
           0 10px 10px rgba(0, 0, 0, 0.22);
       }
+    }
+  }
+`;
+
+export const PriceServicesDental = styled(Link)`
+  width: 220px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.4s;
+
+  b {
+    color: #000000;
+  }
+  &:hover {
+    transform: scale(1.1);
+    color: greenyellow;
+    b {
+      color: greenyellow;
     }
   }
 `;

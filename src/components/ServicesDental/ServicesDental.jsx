@@ -1,6 +1,7 @@
 import {
   MarginServicesDental,
   ServicesDentalWrapper,
+  PriceServicesDental
 } from "./ServicesDental.styled";
 import CarouselComponent from "../CarouselComponent/CarouselComponent";
 import { dataResina } from "../../data";
@@ -79,10 +80,10 @@ const ServicesDental = () => {
               </p>
             </div>
           </span>
-          <span>
+          <span style={{height: '500px'}}>
             <h3 style={{ marginBottom: "0" }}>¡Aprovecha!</h3>
             <CarouselComponent data={dataResina} />
-            <button>Conoce nuestros precios</button>
+            <PriceServicesDental to='/'><b>$ </b> Conoce nuestros precios <b> $</b></PriceServicesDental>
           </span>
         </section>
       </MarginServicesDental>

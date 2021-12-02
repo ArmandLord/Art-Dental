@@ -1,11 +1,12 @@
-import { DentalText, ServicesDental, Welcome } from '../../components'
+import { DentalText, Profile, ServicesDental, Welcome } from '../../components'
 
 const Home = () => {
     return (
         <div>
             <DentalText />
             <Welcome />
-            <ServicesDental />  
+            <ServicesDental /> 
+            <Profile /> 
         </div>
     )
 }

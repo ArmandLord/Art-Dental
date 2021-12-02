@@ -64,6 +64,8 @@ export const MarginWelcome = styled(Container)`
       width: 55px;
       height: 55px;
       object-fit: cover;
+      object-position: center;
+      cursor: pointer;
 
       @media (max-width: 600px) {
         width: 40px;

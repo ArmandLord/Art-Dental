@@ -24,7 +24,7 @@ const Welcome = () => {
             alt="logo Art-Dental"
           />
           <img
-            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638388205/Art-Dental/logo_zzke70.png"
+            src="https://res.cloudinary.com/dy9tey0yi/image/upload/v1638418452/Art-Dental/Resina/Disen%CC%83o_sin_ti%CC%81tulo_13_oi0u2k.png"
             alt="logo Art-Dental"
           />
           <img

@@ -26,6 +26,10 @@ export const NavLogo = styled(Link)`
     display: flex;
     align-items: center;
     width: 20%;
+
+    @media (max-width: 960px) {
+        width: 40%;
+    }
     
     h2 {
         font-size: 1.2rem;

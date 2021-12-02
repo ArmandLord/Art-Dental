@@ -21,20 +21,20 @@ const Navbar = () => {
            <Nav>
                 <NavbarContainer>
                     <NavLogo to='/' onMouseOver={() => setLogo(!logo)} onMouseOut={() => setLogo(true)}>
-                        <h2>Art Dental</h2>
+                        <h2>Web Art Dental</h2>
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
                         {click ? <MenuXIcon /> : <MenuFootIcon />}
                     </MobileIcon>
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItem>
-                            <NavLinks to='/'>Home</NavLinks>
+                            <NavLinks to='/'>Inicio</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/hallOfFame'>About</NavLinks>
+                            <NavLinks to='/hallOfFame'>Nosotros</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/createPlayer'>Contact Us</NavLinks>
+                            <NavLinks to='/createPlayer'>Contactanos</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>   
