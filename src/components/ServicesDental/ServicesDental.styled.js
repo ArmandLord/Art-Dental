@@ -13,8 +13,7 @@ export const ServicesDentalWrapper = styled.div`
 `;
 
 export const MarginServicesDental = styled(Container)`
-  /* background: red; */
-
+  
   header {
     width: 100%;
     height: 200px;
@@ -25,6 +24,7 @@ export const MarginServicesDental = styled(Container)`
     margin-bottom: 50px;
     color: #ffffff;
     font-size: 1.5rem;
+
 
     h2 {
       font-size: 3rem;
@@ -51,6 +51,42 @@ export const MarginServicesDental = styled(Container)`
     align-items: center;
     flex-wrap: wrap;
 
+    .div {
+      background: #000000;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 3rem;
+      padding: 2rem;
+      width: 80%;
+      height: 270px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+
+      @media (max-width: 500px) {
+        height: 400px;
+        width: 90%;
+      }
+      
+      p {
+        text-align: justify;
+        width: 45%;
+        @media (max-width: 1100px) {
+          width: 95%;
+        }
+      }
+      img {
+        width: 45%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 1.5rem;
+        @media (max-width: 1100px) {
+          display: none;    
+        }
+      }
+    }
+
     @media (max-width: 1200px) {
       height: auto;
     }
@@ -69,14 +105,16 @@ export const MarginServicesDental = styled(Container)`
       flex-direction: column;
       color: #ffffff;
 
-      @media (max-width: 600px) {
+      @media (max-width: 500px) {
         width: 100%;
         margin-bottom: 30px;
+        height: 600px;
       }
 
       h3 {
         background: #000;
         width: 80%;
+        margin-bottom: 30px;
         border-bottom-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
         padding: 1.5rem;
