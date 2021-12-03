@@ -31,7 +31,7 @@ const Navbar = () => {
                             <NavLinks to='/'>Inicio</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/hallOfFame'>Nosotros</NavLinks>
+                            <NavLinks to='/hallOfFame'>Precios</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='/createPlayer'>Contactanos</NavLinks>

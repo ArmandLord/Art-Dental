@@ -20,7 +20,7 @@ const Profile = () => {
             privada en la áreas de rehabilitación bucal, prótesis, estética
             dental y disfunción de ATM.
           </p>
-          <IconToohth style={{color: '#fff'}}/>
+          <IconToohth style={{ color: "#fff" }} />
         </div>
         <div className="profile">
           <img
@@ -32,9 +32,27 @@ const Profile = () => {
           <h2>Dr. Gerardo Fuentes Pérez</h2>
           <IconToohth />
           <span>
-            <IconFacebook />
-            <IconInstagram />
-            <IconGmail />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/profile.php?id=100009650584005"
+            >
+              <IconFacebook />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/esedoc_gerardo/?fbclid=IwAR2zUhKqrNkyKBNwBDnKoV_RwidiDQ7Wbt-IapAXRZynNhbInft42D2nrt8"
+            >
+              <IconInstagram />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:gerardofuentes0000@gmail.com"
+            >
+              <IconGmail />
+            </a>
           </span>
         </div>
       </ProfileMargin>

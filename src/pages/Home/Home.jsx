@@ -1,4 +1,4 @@
-import { DentalText, Profile, ServicesDental, Welcome } from '../../components'
+import { DentalText, Profile, ServicesDental, Welcome, Map, Footer } from '../../components'
 
 const Home = () => {
     return (
@@ -7,6 +7,8 @@ const Home = () => {
             <Welcome />
             <ServicesDental /> 
             <Profile /> 
+            <Map />
+            <Footer />
         </div>
     )
 }

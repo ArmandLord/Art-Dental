@@ -45,6 +45,9 @@ export const ProfileMargin = styled(Container)`
       width: 70%;
       height: 33.33%;
     }
+    @media (max-width: 520px) {
+      width: 90%;
+    }
 
     img {
       height: 88%;
@@ -76,9 +79,14 @@ export const ProfileMargin = styled(Container)`
       justify-content: space-around;
     }
 
+    @media (max-width: 520px) {
+      width: 100%;
+    }
+
     p {
-      /* background: red; */
+      font-size: 1.1rem;
       text-align: justify;
+      color: #828282;
       width: 90%;
     }
 
@@ -90,6 +98,7 @@ export const ProfileMargin = styled(Container)`
       background: #000000;
       padding: 1rem;
       border-bottom-right-radius: 2rem;
+
       @media (max-width: 1100px) {
         border-bottom-left-radius: 2rem;
       }
@@ -102,14 +111,14 @@ export const ProfileMargin = styled(Container)`
       text-align: center;
       text-transform: uppercase;
       font-weight: bold;
-      background-image: url(${bgOne});
+      /* background-image: url(${bgOne});
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
 
       background-clip: text;
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent; */
     }
     h3 {
       font-size: 2rem;
