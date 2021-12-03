@@ -48,3 +48,8 @@ export const ContainerForm = styled.form`
     }
   }
 `;
+
+export const Thanks = styled.p`
+    color: #fff;
+    font-size: 1.1rem;
+`
