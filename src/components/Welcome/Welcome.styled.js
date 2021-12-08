@@ -22,18 +22,23 @@ export const MarginWelcome = styled(Container)`
     margin-top: 2rem;
     font-size: 3rem;
     width: 100%;
-    color: transparent;
+    color: #808080;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    background-image: url(${bgOne});
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    transition: all 1s ease-in-out;
 
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    &:hover {
+      color: transparent;
+      background-image: url(${bgOne});
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   p {
@@ -42,7 +47,7 @@ export const MarginWelcome = styled(Container)`
     color: #828282;
 
     @media (max-width: 600px) {
-        font-size: 1.2rem;
+      font-size: 1.2rem;
     }
   }
 
@@ -54,10 +59,10 @@ export const MarginWelcome = styled(Container)`
     justify-content: space-evenly;
     align-items: center;
     height: 150px;
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     @media (max-width: 600px) {
-        height: 110px;
-      }
+      height: 110px;
+    }
 
     img {
       filter: grayscale(100%);
